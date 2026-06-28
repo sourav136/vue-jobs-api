@@ -11,7 +11,7 @@ const app = express()
 const allowedOrigins = [
   'http://localhost:5173',     
   'http://localhost:5174',     
-  'https://vue-jobs-website.netlify.app/'   // update this after deploying Vue
+  'https://vue-jobs-website.netlify.app'   // update this after deploying Vue
 ]
 
 app.use(cors({ origin: allowedOrigins }))
